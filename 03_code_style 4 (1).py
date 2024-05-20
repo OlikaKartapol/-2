@@ -14,7 +14,8 @@ print('Результат', z)
 
 # ср. с С++
 
-# if (x < 0) { printf('Меньше нуля\n'); z = x**2 + y; } else { printf('Больше нуля\n'); z = x - y; } printf('Получается\n', z)
+# if (x < 0) { printf('Меньше нуля\n'); z = x**2 + y; }
+# else { printf('Больше нуля\n'); z = x - y; } printf('Получается\n', z)
 
 # вложенные блоки кода
 
@@ -75,13 +76,13 @@ my_list = [2, 3, 4, 5, 6]
 
 # reformat кода
 
-x, y = 3, 8
+x, z = 3, 8
 
 if x == 3:
     print(42)
 
 if x < 0:
-    if y > 0:
+    if z > 0:
         print('налево!')
     else:
         print('направо!')
